@@ -1,0 +1,16 @@
+.filtrs {
+  width: 40%;
+  margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  label {
+    font-size: 1.8rem;
+  }
+}
+
+.filtrsPrice {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+}

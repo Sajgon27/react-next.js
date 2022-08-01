@@ -1,0 +1,26 @@
+.container {
+  width: 30%;
+
+  margin-bottom: 100px;
+
+  img {
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 1.7rem;
+    display: flex;
+  }
+  #price {
+    font-size: 1.3rem;
+    color: rgb(70, 21, 21);
+  }
+
+  button {
+    margin-left: auto;
+    background-color: white;
+    font-size: 1rem;
+    width: 100px;
+    cursor: pointer;
+  }
+}

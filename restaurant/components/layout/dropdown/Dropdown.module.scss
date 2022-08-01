@@ -1,0 +1,60 @@
+div.wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15%;
+  margin-bottom: 50px;
+
+  button {
+    border: 0;
+    font-size: 1.1rem;
+    background: white;
+    border: 1px solid grey;
+    width: 100%;
+    padding: 6px 10px;
+    position: relative;
+    text-align: center;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+
+  button::after {
+    position: absolute;
+    right: 6px;
+    top: 4px;
+    content: "\2191";
+  }
+
+  button.expanded::after {
+    content: "\2193";
+  }
+}
+
+div.container {
+  width: 180px;
+}
+
+ul.options {
+  border: 1px solid black;
+  display: none;
+  list-style: none;
+  padding: 4px 0;
+  margin-top: -4px;
+}
+
+ul.show {
+  display: block;
+}
+
+ul.options li {
+  padding: 6px 10px;
+}
+
+ul.options li:active,
+ul.options li:focus,
+ul.options li:hover,
+ul.options li[aria-selected="true"] {
+  background: white;
+  cursor: pointer;
+}

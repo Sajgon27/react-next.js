@@ -1,0 +1,38 @@
+.container {
+  margin: 150px auto 150px auto;
+  border: 3px solid black;
+  font-weight: bold;
+  background-image: url("https://images.pexels.com/photos/3756523/pexels-photo-3756523.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding: 50px;
+  width: 80%;
+  height: 250px;
+  div {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto 50px auto;
+
+    border: 1px solid black;
+    border-bottom: none;
+
+    background-color: rgba($color: white, $alpha: 0.8);
+    padding: 15px;
+  }
+  h3 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  p {
+    font-size: 1.2rem;
+
+    width: 50%;
+    text-align: center;
+  }
+}

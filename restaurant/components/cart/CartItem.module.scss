@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 70%;
+
+  div {
+    width: 30%;
+  }
+  img {
+    width: 100%;
+  }
+  h3 {
+    font-size: 1.7rem;
+  }
+}
